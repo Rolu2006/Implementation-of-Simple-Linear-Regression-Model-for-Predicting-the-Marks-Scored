@@ -52,17 +52,18 @@ plt.xlabel("Scores")
 plt.show()
 #Graph plot for test data
 plt.scatter(x_test,y_test,color='black')
-plt.plot(x_train,regressor.predict(x_train),color='red')
+plt.plot(x_test,regressor.predict(x_test),color='red')
 plt.title("Hours vs Scores(Testing set)")
 plt.xlabel("Hours")
 plt.xlabel("Scores")
 plt.show()
-mse=mean_absolute_error(y_test,y_pred)
+mse=mean_squared_error(y_test,y_pred)
 print('MSE = ',mse)
 mae=mean_absolute_error(y_test,y_pred)
 print('MAE = ',mae)
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
+
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
 
@@ -135,9 +136,16 @@ print("RMSE= ",rmse)
  20.91914167 78.09382734 69.37226512]
 [20 27 69 30 62 35 24 86 76]
 
-![Screenshot 2024-10-17 094550](https://github.com/user-attachments/assets/57423992-14cd-4316-bcc2-4c6e9b988aae)
 
-![Screenshot 2024-10-17 094759](https://github.com/user-attachments/assets/d9921250-d5d5-43d7-bcc7-b70cd0218e84)
+
+
+
+![Screenshot 2024-10-18 094500](https://github.com/user-attachments/assets/f0807816-1835-43b0-becd-7da36f2e0be2)
+
+
+
+
+![Screenshot 2024-10-18 094512](https://github.com/user-attachments/assets/beb5f222-caa6-404d-a017-3c69e956189f)
 
 
 MSE =  4.691397441397438
