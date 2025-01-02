@@ -33,7 +33,7 @@ RegisterNumber:24000337
 
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
-
+```
  Hours  Scores
 0     2.5      21
 1     5.1      47
@@ -118,7 +118,7 @@ RegisterNumber:24000337
 MSE =  4.691397441397438
 MAE =  4.691397441397438
 RMSE=  2.1659633979819324
-​
+​```
 
 
 
